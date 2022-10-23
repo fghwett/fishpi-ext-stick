@@ -1,0 +1,15 @@
+{
+  "name": "little-stick",
+  "publisher": "fghwett",
+  "version": "1.0.0",
+  "displayName": "小飞棍",
+  "description": "神秘代码解码程序",
+  "main": "extension/index.js",
+  "author": "FGHWETT",
+  "homepage": "https://github.com/fghwett/fishpi-ext-stick",
+  "repository": "https://github.com/fghwett/fishpi-ext-stick",
+  "fishpi": {
+    "type": "extension",
+    "icon": "public/icon.png"
+  }
+}
