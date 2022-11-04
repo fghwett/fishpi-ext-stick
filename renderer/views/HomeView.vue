@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
-    <p><input class="pretty" type="checkbox" id="filter_tail" v-model="setting.filterTail"/><label for="filter_tail">开启解析小飞棍</label></p>
-    <p><input class="pretty" type="checkbox" id="add_tail" v-model="setting.addTail"/><label for="add_tail">点击时解析小飞棍</label></p>
+    <p><input class="pretty" type="checkbox" id="filter_tail" v-model="setting.enable"/><label for="filter_tail">开启解析小飞棍</label></p>
+    <p><input class="pretty" type="checkbox" id="add_tail" v-model="setting.click"/><label for="add_tail">点击时解析小飞棍</label></p>
     <p><input placeholder="设置 CDKEY，申请 CDKEY 请聊天室发送：凌 CDKEY" v-model="setting.cdkey" style="width:100%" /></p>
     <p><button @click="save">设置</button></p>
     <p>{{error}}</p>
