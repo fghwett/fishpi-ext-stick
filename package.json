@@ -1,7 +1,7 @@
 {
   "name": "little-stick",
   "publisher": "fghwett",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "小飞棍",
   "description": "神秘代码解码程序",
   "main": "extension/index.js",
